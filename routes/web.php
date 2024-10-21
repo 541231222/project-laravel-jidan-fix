@@ -13,3 +13,7 @@ Route::get('/index', function () {
 Route::get('/', function () {
     return view('login'); //ini merujuk ke page index di folder resource
 });
+
+Route::get('/about', function () {
+    return view('about'); //ini merujuk ke page index di folder resource
+});
