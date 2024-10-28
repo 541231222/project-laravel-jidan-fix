@@ -33,7 +33,7 @@
             // Check credentials
             if(username === correctUsername && password === correctPassword){
             alert("login berhasil");
-             window.location.href =  '/index';
+             window.location.href =  '/';
             }else{
               alert("salah bro");
             }

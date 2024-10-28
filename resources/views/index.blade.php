@@ -1,4 +1,4 @@
-<html>
+<html class="scroll-smooth">
 <head>
     <title>Zidan Farikhys</title>
     @vite('resources/css/app.css')
@@ -10,9 +10,9 @@
         <button class="mt-4 bg-gray-300 text-gray-800 py-2 px-4 rounded">Fav ER Bosses</button>
     </header>
     <nav class="bg-slate-500 text-white text-center py-4">
-        <a href="#" class="mx-4">About Me</a>
-        <a href="#" class="mx-4">Fun Fact</a>
-        <a href="#" class="mx-4">Contact</a>
+        <a href="{{ route('about') }}" class="mx-4">About Me</a>
+        <a href="{{ route('login') }}" class="mx-4">Login</a>
+        <a href="#contact" class="mx-4">Contact</a>
     </nav>
     <main class="max-w-4xl mx-auto py-12">
         <section class="mb-12">
@@ -20,7 +20,7 @@
             <p class="text-center">Halo! namaku Zidan Farikhys. Aku seorang pelajar kelas 11 yang saat ini berdomisili di Purwokerto. Saat ini aku sedang menempuh jurusan RPL di SMK Telkom Purwokerto</p>
         </section>
         <section class="mb-12">
-            <h2 class="text-2xl font-bold text-center mb-4">Contact</h2>
+            <h2 class="text-2xl font-bold text-center mb-4" id="contact">Contact</h2>
             <p class="text-center">Halo! namaku Zidan Farikhys. Aku seorang pelajar kelas 11 yang saat ini berdomisili di Purwokerto. Saat ini aku sedang menempuh jurusan RPL di SMK Telkom Purwokerto</p>
         </section>
         <section class="mb-12">
